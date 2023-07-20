@@ -1,0 +1,2 @@
+1. input.textContent;
+2. +changingValue.textContent: The + operator before changingValue.textContent converts the text content into a numeric value. It's a shorthand way to ensure that the content is treated as a number, even if it was originally a string.

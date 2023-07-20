@@ -1,7 +1,65 @@
 body {
   font-family: sans-serif;
-}
-
-h1 {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
+#value {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+
+#inputBtnAllWrapper {
+  display: flex;
+}
+
+#inputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+#input {
+  margin-left: 14px;
+  margin-right: 14px;
+  height: 34px;
+  border-radius: 8px;
+  font-size: 22px;
+  padding-left: 8px;
+}
+
+#ctrlBtnWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+#btnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#incrementBtn,
+#decrementBtn {
+  height: 36px;
+  border-radius: 8px;
+  min-width: 90px;
+  font-size: 22px;
+}
+
+#resetBtn {
+  height: 36px;
+  border-radius: 8px;
+  min-width: 60px;
+  font-size: 16px;
+  min-width: 80px;
+}
+
+/* h1 {
+  align-items: center;
+} */

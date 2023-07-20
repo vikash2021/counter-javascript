@@ -2,12 +2,23 @@ import "./styles.css";
 
 document.getElementById("app").innerHTML = `
 <main>
-<h2>Counter</h2>
-<div id="value">0</div>
-<button id="incrementBtn">+</button>
+<h1>Counter</h1>
+<h2 id="value">0</h2>
+
+
+<div id="inputWrapper>
+<label for="input">Increment/Decrement by:</label>
+<input id="input" type="number" value="1" />
+</div>
+<div id="ctrlBtnWrapper">
 <button id="decrementBtn">-</button>
-<input id="input" placeholder="Enter number" type="number" value="1" min="1" max="10"/>
+<button id="incrementBtn">+</button>
+</div>
+<div id="btnWrapper">
 <button id="resetBtn">Reset</button>
+</div>
+
+
 </main>
 `;
 
