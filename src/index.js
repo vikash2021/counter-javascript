@@ -4,15 +4,13 @@ document.getElementById("app").innerHTML = `
 <main>
 <h1>Counter</h1>
 <h2 id="value">0</h2>
-
-
-<div id="inputWrapper>
-<label for="input">Increment/Decrement by:</label>
+<div id="inputWrapper">
+<h4>Increment/Decrement by:</h4>
 <input id="input" type="number" value="1" />
 </div>
 <div id="ctrlBtnWrapper">
-<button id="decrementBtn">-</button>
 <button id="incrementBtn">+</button>
+<button id="decrementBtn">-</button>
 </div>
 <div id="btnWrapper">
 <button id="resetBtn">Reset</button>
@@ -50,6 +48,7 @@ document.getElementById("app").innerHTML = `
 
   const onReset = () => {
     changingValue.textContent = 0;
+    input.value = 1;
   };
 
   input.addEventListener("change", onChange);
