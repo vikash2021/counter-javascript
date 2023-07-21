@@ -38,12 +38,12 @@ document.getElementById("app").innerHTML = `
 
   const onIncrement = () => {
     changingValue.textContent =
-      +changingValue.textContent + input.valueAsNumber;
+      parseInt(changingValue.textContent) + input.valueAsNumber;
   };
 
   const onDecrement = () => {
     changingValue.textContent =
-      parseInt(changingValue.textContent) - parseInt(input.valueAsNumber);
+      parseInt(changingValue.textContent) - input.valueAsNumber;
   };
 
   const onReset = () => {
